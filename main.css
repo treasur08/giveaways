@@ -282,6 +282,16 @@ button {
         padding: 10px;
         margin: 10px auto;
     }
+    .styled-select {
+        width: 48%;
+        padding: 9px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #fff;
+    }
     
     
 }
@@ -307,6 +317,16 @@ button {
     }
     .comment-img {
         margin-bottom: 10px;
+    }
+    .styled-select {
+        width: 48%;
+        padding: 9px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #fff;
     }
     
 }
