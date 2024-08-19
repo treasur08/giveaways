@@ -50,7 +50,7 @@ function share() {
         document.getElementById('progress-bar-fill').textContent = progress + '%';
         localStorage.setItem('progress', progress);
     }
-    window.open("https://api.whatsapp.com/send?text=Check out this awesome promotion. $2000 giveaway now on this website. Check it out: [link]", "_blank");
+    window.open("https://api.whatsapp.com/send?text=Check out this awesome promotion. $2000 giveaway now on this website. Check it out: https://giveaways-liart.vercel.app/", "_blank");
     if (progress === 100) {
         showFinalMessage();
     }
