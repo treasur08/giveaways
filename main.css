@@ -1,0 +1,312 @@
+body {
+    font-family: 'mont', sans-serif;
+    background: url('img/money.gif') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url('img/Montserrat-Light.ttf');
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: -17px;
+}
+.styled-select {
+    width: 29.5%;
+    padding: 9px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+.navbar-logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.content, .content-i {
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: rgba(207, 206, 206, 0.46);
+}
+
+.content-i button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 80%;
+    max-width: 400px;
+    background: transparent;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: #007bff solid 0.5px;
+}
+
+.progress-bar-fill {
+    width: 0;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    transition: width 0.5s;
+    box-shadow: 0 0 10px #007bff;
+    animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #007bff; }
+    50% { box-shadow: 0 0 20px #ffd700; }
+    100% { box-shadow: 0 0 5px #007bff; }
+}
+
+.whatsapp {
+    margin: 20px;
+}
+
+.whatsapp button {
+    padding: 15px 25px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: mont;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.post-info .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: -10px;
+    border: 2px solid white;
+}
+.post-info .share{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.like-comment-share {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.like-comment-share button {
+    padding: 10px 20px;
+    background:none;
+    color: #007bff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.comment-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffff;
+    box-sizing: border-box;
+}
+
+.comment-section h2 {
+    text-align: left;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+.count{
+    text-align: right;
+    margin-left: 9%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.win img{
+    width: 320px;
+}
+
+.comment-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment p {
+    margin: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.comment-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.comment-info span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.firework {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url('https://media.giphy.com/media/26uf8nbNfINcUQCkE/giphy.gif') no-repeat center center;
+    background-size: cover;
+    animation: explosion 1s ease-out;
+}
+
+@keyframes explosion {
+    0% { opacity: 1; }
+    100% { opacity: 0; transform: scale(1.5); }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 20px;
+    }
+    .navbar p {
+        font-size: 14px;
+    }
+    .progress-bar {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .progress-bar-fill {
+        height: 20px;
+        line-height: 20px;
+    }
+    .content, .content-i {
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    
+    
+}
+
+@media (max-width: 480px) {
+    .navbar h1 {
+        font-size: 16px;
+    }
+    .navbar p {
+        font-size: 12px;
+    }
+    .content, .content-i {
+        width: 85%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .progress-bar-fill {
+        font-size: 12px;
+    }
+    .comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .comment-img {
+        margin-bottom: 10px;
+    }
+    
+}

@@ -1,0 +1,232 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p{
+            font-weight: 650;
+        }
+        
+        body {
+            font-family: mont;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        @font-face {
+            font-family: mont;
+            src: url(img/Montserrat-Light.ttf);
+        }
+        .navbar {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            
+        }
+        .navbar img {
+            display: block;
+            margin: 0 auto;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .navbar p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .question {
+            display: none;
+        }
+        .question img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .question.active {
+            display: block;
+            
+        }
+        button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: blue;
+            border-radius: 10px;
+            color: white;
+        }
+        .comments {
+    margin-top: 20px;
+    }
+    .comment {
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: #cac3c3;
+    }
+    .comment img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .comment p {
+        margin: 0;
+    }
+    textarea{
+        width: 100px;
+    }
+
+    .post-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #e0e0e0; /* Light gray background */
+    }
+    .post-info img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: -10px;
+        border: 2px solid white;
+    }
+    .post-info .share{
+        margin-left: 20px;
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .like-comment-share {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #e0e0e0; /* Light gray background */
+    }
+    .like-comment-share button {
+        padding: 6px 16px;
+        background: none;
+        color: #007bff;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .comment-section {
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .comment-section h2{
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    .cover {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+        flex-grow: 1;
+    }
+    .comment .cover strong{
+        color: #007bff;
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    button {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .comment-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .post-info div:first-child {
+        display: flex;
+        align-items: right;
+        
+    }
+    .post-info div:last-child {
+        font-size: 16px;
+    }
+    .post-info hr {
+        margin: 10px 0;
+        border: 1px solid #ddd;
+    }
+    .comment-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .comment-info .comment-time {
+        margin-left: auto;
+    }
+
+    @media (max-width: 720px) {
+        .navbar h1 {
+            font-size: 20px;
+        }
+        .navbar p {
+            font-size: 14px;
+        }
+        .content {
+            padding: 15px;
+        }
+        .comment img {
+            width: 35px;
+            height: 35px;
+        }
+        .comment {
+            padding: 8px;
+        }
+        .share{
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .navbar h1 {
+            font-size: 18px;
+        }
+        .navbar p {
+            font-size: 12px;
+        }
+        .content {
+            padding: 10px;
+        }
+        .comment img {
+            width: 30px;
+            height: 30px;
+        }
+        .comment {
+            padding: 5px;
+        }
+        button {
+            padding: 10px;
+        }
+    }
