@@ -283,7 +283,7 @@ button {
         margin: 10px auto;
     }
     .styled-select {
-        width: 48%;
+        width: 50%;
         padding: 9px;
         margin: 5px 0;
         box-sizing: border-box;
@@ -319,7 +319,7 @@ button {
         margin-bottom: 10px;
     }
     .styled-select {
-        width: 48%;
+        width: 50%;
         padding: 9px;
         margin: 5px 0;
         box-sizing: border-box;
