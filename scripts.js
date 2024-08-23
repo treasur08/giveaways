@@ -62,7 +62,7 @@ function showFinalMessage() {
 }
 
 function completeRegistration() {
-    window.open("https://t.me/giveaway_who", "_blank");
+    window.open("https://chat.whatsapp.com/B5tRmodg01594ztgWXUtoE", "_blank");
 }
 
 function addComment() {
