@@ -4,7 +4,7 @@ let currentQuestion = 1;
             document.getElementById(`question${currentQuestion}`).classList.remove('active');
             currentQuestion++;
             if (currentQuestion > 5) {
-                window.location.href = 'index.html'; // Replace with the actual path to the second page
+                window.location.href = 'main.html'; // Replace with the actual path to the second page
             } else {
                 document.getElementById(`question${currentQuestion}`).classList.add('active');
             }
