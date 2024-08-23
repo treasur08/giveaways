@@ -20,7 +20,7 @@ body {
     text-align: center;
     position: relative;
     box-sizing: border-box;
-    margin-right: -17px;
+    margin-right: 0px;
 }
 .styled-select {
     width: 29.5%;
@@ -219,7 +219,7 @@ body {
 }
 
 textarea {
-    width: 100%;
+    width: 94%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
