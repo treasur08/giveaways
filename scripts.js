@@ -50,7 +50,7 @@ function share() {
         document.getElementById('progress-bar-fill').textContent = progress + '%';
         localStorage.setItem('progress', progress);
     }
-    window.open("https://api.whatsapp.com/send?text=Hello 👋 an online foreign company is doing a massive empowerment tournament and I just got nominated for the $200 giveaway and the online foreign job offer!                                Click this link to join us now!👇.                                            https://giveaways-liart.vercel.app/", "_blank");
+    window.open("https://api.whatsapp.com/send?text=Hello 👋 an online foreign company is doing a massive empowerment tournament and I just got nominated for the $200 giveaway and the online foreign job offer!                                                              Click this link to join us now!👇.                                            https://giveaways-liart.vercel.app/", "_blank");
     if (progress === 100) {
         showFinalMessage();
     }
